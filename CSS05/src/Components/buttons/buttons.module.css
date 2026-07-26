@@ -1,0 +1,15 @@
+.btn{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    align-content: center;
+}
+
+.btn h1{
+    color: black;
+}
+
+.btn button {
+    color: red;
+    background-color: cornsilk;
+}
