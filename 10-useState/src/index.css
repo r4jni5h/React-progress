@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(56, 49, 63);
+}
+
+h1 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(150, 114, 185);
+    padding: 40px;
+    font-size:  100px;
+    margin-left: 420px;
+
+}
+
+button {
+    margin-top: 20px;
+    padding: 20px;
+    margin: 50px;
+}
