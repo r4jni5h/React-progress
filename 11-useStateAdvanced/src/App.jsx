@@ -1,8 +1,18 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 const App = () => {
+  const [num, setNum] = useState([10,20,30,40])
+
+  const changed =()=>{
+    const newNum = [...num]
+    newNum.push(100)
+    setNum(newNum)
+  }
   return (
-    <div>App</div>
+    <div>
+      <h1>{num}</h1>
+      <button onClick={changed}>click</button>
+    </div>
   )
 }
 
